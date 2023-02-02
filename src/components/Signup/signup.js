@@ -100,12 +100,13 @@ const Signup = () => {
                         value={password}
                         onChange={e => setpassword(e.target.value)}
                     />
-                    <TextField
+                    
+                   <TextField
                         fullWidth
                         label="Address"
                         id="fullWidth"
                         value={address}
-                        onChange={e => setaddress(e.target.value)}
+                        onChange={e => setaddress(e.target.value)} 
                     />
                     <TextField
                         fullWidth

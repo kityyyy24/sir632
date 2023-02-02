@@ -37,11 +37,10 @@ function HomeappBar() {
   };
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" style={{background:'teal'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
-            <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
             <Typography
               variant="h6"
               noWrap
@@ -53,11 +52,11 @@ function HomeappBar() {
                 fontFamily: "monospace",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
-                color: "inherit",
+                color:"black",
                 textDecoration: "none"
               }}
             >
-              Project Management App
+              Marshmallow Management
             </Typography>
           </Box>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
