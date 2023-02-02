@@ -14,7 +14,7 @@ const Homepage = () => {
             Welcome To Project Management System
           </Typography>
           <Typography variant="h6" sx={{ mb: 3 }}>
-            Enjoy Our Services.
+            Enjoy Our Marshmallow Service.
           </Typography>
           <Button
             variant="contained"
