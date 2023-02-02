@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const apiService = axios.create({
-    // baseURL: 'http://192.168.68.130:3001/',
-    baseURL: 'https://pms.lepak.xyz/',
+
+    baseURL: 'http://167.71.192.65:3001/',
     timeout: 30 * 1000,
     headers: {
         'Access-Control-Allow-Origin': '*',
